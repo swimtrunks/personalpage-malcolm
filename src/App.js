@@ -14,18 +14,20 @@ function App() {
             MP
           </a>
           <nav className="flex">
-            <a href="/portfolio" alt="header link">
-              Projects
-            </a>
+           
             <a href="/about" alt="header link">
               About Me
-            </a>
-            <a href="/" alt="header link">
-              Blog
             </a>
             <a href="/contact" alt="header link">
               Contact
             </a>
+            <a href="/" alt="header link">
+              Blog
+            </a>
+            <a id="ctaPortfolio" href="/portfolio" alt="header link">
+              Portfolio
+            </a>
+           
           </nav>
         </header>
         <container className="topSection flex">

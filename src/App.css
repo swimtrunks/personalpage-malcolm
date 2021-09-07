@@ -59,6 +59,11 @@ nav a{
     background-color: white;
     color: rgb(3, 44, 49)
 }
+#ctaPortfolio{
+    background-color: rgb(235, 130, 38);
+    padding:0.5rem 2rem;
+    border-radius: 1rem;
+}
 #job_title{
     display: inline-block;
     font-size: 1.2rem;
