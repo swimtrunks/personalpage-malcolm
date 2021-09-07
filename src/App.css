@@ -52,15 +52,18 @@ nav a{
 }
 .ctaContact{
     display: inline-block;
+    font-weight: 500;
     margin-top: 3rem;
     margin-right: 1rem;
-    padding: .75rem;
-    border-radius:5%;
-    background-color: white;
-    color: rgb(3, 44, 49)
+    padding:0.7rem 1.4rem;
+    border-radius:1rem;
+    color: white;
+    font-size: 1.1rem;
+    background-color: rgb(235, 130, 38);    
 }
 #ctaPortfolio{
     background-color: rgb(235, 130, 38);
+    font-weight: 500;
     padding:0.5rem 2rem;
     border-radius: 1rem;
 }
