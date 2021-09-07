@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+/*general*/
+.flex{
+    display: flex;
+}
+.jc_sb{
+    justify-content: space-between;
+}
+body{
+    color: white;
+    background-color: rgb(3, 44, 49);
+    font-family: "Lato";
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.bigFont{
+    font-weight: 900;
+    font-size: 4rem;
+}
+.blockStyling{
+    background-color: rgb(1, 31, 31);
+    margin: 2rem 0rem;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.subtitle{
+    display: inline-block;
+    color:rgb(139, 168, 168);
+    font-size: 1.2rem;
+}
+/*header*/
+header{
+    padding:1rem;
+}
+nav{
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 1.1rem;
+    align-items: center;
+}
+nav a{
+    margin-right: 3rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.topSection{
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(1, 31, 31);
+    padding: 2rem;
+    border-radius: 2%;
+}
+.ctaContact{
+    display: inline-block;
+    margin-top: 3rem;
+    margin-right: 1rem;
+    padding: .75rem;
+    border-radius:5%;
+    background-color: white;
+    color: rgb(3, 44, 49)
+}
+#job_title{
+    display: inline-block;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color:rgb(139, 168, 168);
+    margin-bottom: 3rem;
+}
+#intro{
+    margin-top: 8%;
+}
+#intro_text{
+    display: inline-block;
+    margin-right: 2rem;
+}
+#hi_text{
+    font-size: 1rem;
+}
+#logo{
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+/*portfolio*/
+.portfolio_projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.portfolio_projects container{
+    margin: 1rem 0rem;
+    display: inline-block;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(1, 31, 31);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*contact form*/
+.contact_form{
+    flex-direction: column;
+    background-color: rgb(1, 31, 31);
+    padding:2rem;
+    width: 40%;
 }
