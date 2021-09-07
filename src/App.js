@@ -1,3 +1,4 @@
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import logo from "./logo.png";
 import "./App.css";
 import About from "./components/aboutme";
@@ -6,13 +7,14 @@ import Contact from "./components/contact";
 
 function App() {
   return (
+    <Router>
     <div className="App">
       <header className="flex jc_sb">
         <a id="logo" href="/" alt="placeholder">
           MP
         </a>
         <nav className="flex">
-          <a href="/" alt="header link">
+          <a href="/portfolio" alt="header link">
             Projects
           </a>
           <a href="/" alt="header link">
@@ -21,7 +23,7 @@ function App() {
           <a href="/" alt="header link">
             Blog
           </a>
-          <a href="/" alt="header link">
+          <a href="/contact" alt="header link">
             Contact
           </a>
         </nav>
@@ -52,8 +54,20 @@ function App() {
         </div>
         <img src={logo} alt="placeholder"></img>
       </container>
-      <About />
+      <Switch>
+        <Route exact path='/'>
+          <About />
+          <Contact />
+        </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
+        <Route path="/portfolio">
+          <Projects />
+        </Route>
+      </Switch>
     </div>
+    </Router>
   );
 }
 
