@@ -105,7 +105,24 @@ nav a{
 /*contact form*/
 .contact_form{
     flex-direction: column;
-    background-color: rgb(1, 31, 31);
     padding:2rem;
     width: 40%;
+}
+/*footer*/
+footer{
+    margin-top: 1rem;
+    padding: 3rem; 
+    display: block;
+    border-radius: 1rem;
+    background-color: rgb(1, 31, 31);
+    justify-content: space-around; 
+}
+footer section div {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+footer section{
+    display:flex;
+    flex-direction: column;
 }
