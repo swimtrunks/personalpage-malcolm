@@ -69,6 +69,47 @@ function App() {
             <Projects />
           </Route>
         </Switch>
+        <footer className="flex">
+        <section>
+            <div>noWhere Studios</div>
+            <a href="/" alt="dummy link">
+              Home
+            </a>
+            <a href="/" alt="dummy link">
+              About Us
+            </a>
+            <a href="/" alt="dummy link">
+              Blog
+            </a>
+            <a href="/" alt="dummy link">
+              Contact Us
+            </a>
+          </section>
+          <section>
+            <div>Legal</div>
+            <a href="/" alt="dummy link">
+              Privacy Agreement
+            </a>
+            <a href="/" alt="dummy link">
+              Terms of Service
+            </a>
+            <a href="/" alt="dummy link">
+              Business Terms of Service
+            </a>
+          </section>
+          <section>
+            <div>Learn</div>
+            <a href="https://www.nytimes.com/2021/08/30/us/hurricane-ida-how-to-help.html" alt="dummy link">
+              Hurricane Ida: How to Help (NY Times)
+            </a>
+            <a href="https://www.supportblackowned.com/" alt="dummy link">
+              Support Black Business
+            </a>
+            <a href="https://www.cdc.gov/lgbthealth/youth-resources.htm">
+              LGBT Youth Resources
+            </a>
+          </section>
+        </footer>
       </div>
     </Router>
   );
